@@ -1,0 +1,9 @@
+<h1>Model {{ model.length }}</h1>
+<BarChart />
+<table>
+    {{#each model as |m|}}
+        <tr>
+            <td>{{ m.title}}</td>
+        </tr>
+    {{/each}}
+</table>
